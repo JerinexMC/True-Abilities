@@ -1,0 +1,166 @@
+settings:
+  chat-activation: true
+  require-unlocks: false
+  block-restoration-enabled: true
+  max-affected-blocks-per-cast: 250
+  target-non-players: true
+  respect-world-border: true
+
+messages:
+  prefix: "<gradient:#ff5555:#ffaa00><bold>[AnimeAbilities]</bold></gradient> "
+  no-permission: "<red>You do not have permission to use this."
+  unknown-ability: "<red>Unknown ability '<yellow>{input}</yellow>'. Use <gold>/ability list</gold>."
+  not-unlocked: "<red>You have not unlocked <gold>{ability}</gold>."
+  on-cooldown: "<red><gold>{ability}</gold> is on cooldown for <yellow>{time}s</yellow>."
+  activated: "<green>Activated <gold>{ability}</gold>!"
+  reloaded: "<green>AnimeAbilities configuration reloaded."
+
+abilities:
+  susanoo:
+    enabled: true
+    cooldown: 35.0
+    duration: 12.0
+    damage: 9.0
+    range: 7.5
+  shadowclone:
+    enabled: true
+    cooldown: 28.0
+    duration: 12.0
+    damage: 5.5
+    range: 14.0
+    clone-count: 3
+  chidori:
+    enabled: true
+    cooldown: 16.0
+    duration: 2.0
+    damage: 13.0
+    range: 16.0
+  kirin:
+    enabled: true
+    cooldown: 30.0
+    duration: 3.5
+    damage: 18.0
+    range: 28.0
+    radius: 6.0
+  meteor:
+    enabled: true
+    cooldown: 40.0
+    duration: 4.5
+    damage: 20.0
+    range: 34.0
+    radius: 7.5
+  rasengan:
+    enabled: true
+    cooldown: 14.0
+    duration: 2.5
+    damage: 14.0
+    range: 5.0
+  rasenshuriken:
+    enabled: true
+    cooldown: 22.0
+    duration: 4.0
+    damage: 15.0
+    range: 26.0
+    radius: 5.5
+  kamui:
+    enabled: true
+    cooldown: 24.0
+    duration: 4.0
+    damage: 12.0
+    range: 16.0
+  bankai:
+    enabled: true
+    cooldown: 45.0
+    duration: 15.0
+    damage: 7.0
+    range: 6.5
+  getsuga:
+    enabled: true
+    cooldown: 15.0
+    duration: 2.5
+    damage: 13.5
+    range: 24.0
+  senbonzakura:
+    enabled: true
+    cooldown: 26.0
+    duration: 8.0
+    damage: 4.0
+    range: 9.0
+  malevolentshrine:
+    enabled: true
+    cooldown: 45.0
+    duration: 8.0
+    damage: 4.5
+    range: 11.0
+  hollowpurple:
+    enabled: true
+    cooldown: 32.0
+    duration: 4.0
+    damage: 21.0
+    range: 32.0
+  domainexpansion:
+    enabled: true
+    cooldown: 42.0
+    duration: 9.0
+    damage: 14.0
+    range: 10.0
+  cleave:
+    enabled: true
+    cooldown: 12.0
+    duration: 1.5
+    damage: 11.0
+    range: 5.5
+  flyingraijin:
+    enabled: true
+    cooldown: 14.0
+    duration: 25.0
+    damage: 10.0
+    range: 36.0
+  gravitycrush:
+    enabled: true
+    cooldown: 24.0
+    duration: 3.5
+    damage: 14.5
+    range: 12.0
+  windprison:
+    enabled: true
+    cooldown: 22.0
+    duration: 6.0
+    damage: 3.5
+    range: 18.0
+  lightningcage:
+    enabled: true
+    cooldown: 24.0
+    duration: 6.0
+    damage: 4.0
+    range: 24.0
+  aerialsuppression:
+    enabled: true
+    cooldown: 18.0
+    duration: 3.0
+    damage: 16.0
+    range: 28.0
+  macebreaker:
+    enabled: true
+    cooldown: 16.0
+    duration: 5.0
+    damage: 15.0
+    range: 10.0
+  dragonswrath:
+    enabled: true
+    cooldown: 28.0
+    duration: 4.5
+    damage: 16.5
+    range: 26.0
+  soulextraction:
+    enabled: true
+    cooldown: 26.0
+    duration: 3.0
+    damage: 15.0
+    range: 14.0
+  timestop:
+    enabled: true
+    cooldown: 40.0
+    duration: 5.0
+    damage: 12.0
+    range: 12.0

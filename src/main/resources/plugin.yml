@@ -1,0 +1,28 @@
+name: AnimeAbilities
+version: '${project.version}'
+main: com.animeabilities.AnimeAbilitiesPlugin
+api-version: '1.21'
+description: Standalone 24-ability anime PvP plugin for Paper 1.21.11
+authors:
+  - AnimeAbilitiesDev
+
+commands:
+  ability:
+    description: Activate or manage anime abilities
+    aliases: [abilities, ab]
+    usage: /<command> <ability|list|info|reload|give|cooldown>
+    permission: animeabilities.use
+
+permissions:
+  animeabilities.use:
+    description: Allows using anime abilities via command or chat code
+    default: true
+  animeabilities.admin:
+    description: Allows administrative ability commands
+    default: op
+  animeabilities.bypass.unlock:
+    description: Allows using all abilities even when unlock-required is enabled
+    default: op
+  animeabilities.bypass.cooldown:
+    description: Bypasses ability cooldowns
+    default: false
